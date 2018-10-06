@@ -1,2 +1,5 @@
-# Portfolio
-Responsive webapp, in Reactjs. Added svgs, third party libraries and the animations created from Adobe illustrator.
+# react-native apps
+react-native apps with third party elements and animations.
+
+# To Run :
+`expo start`
