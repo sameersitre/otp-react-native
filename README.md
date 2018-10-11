@@ -8,5 +8,5 @@ App is made by commandline `create-react-native-app` to easily practice and debu
 ### To Run :
 cd into folder todolist-app
 
-then type `expo start` to start.
+then type `expo start` to run in `adb` device, ios simulator or android emulator. 
  
