@@ -41,7 +41,8 @@ export default class App extends Component {
     }
     return (
       <View >
-        <TextInput placeholder="add the works..." onChangeText={(inputvalue) => this.setState({ inputvalue })} style={styles.container}/>
+        <TextInput placeholder="add the works..." onChangeText={(inputvalue) => this.setState({ inputvalue })} style={styles.container} />
+        
         <Button title="Add" onPress={addButtonClick}/>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
@@ -56,8 +57,6 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     paddingTop:50,
-    justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
   welcome: {
@@ -67,7 +66,7 @@ const styles = StyleSheet.create({
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    color: '#FFC8A6',
     marginBottom: 5,
   },
 });
